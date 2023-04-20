@@ -29,7 +29,7 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.main-section {
+.main {
     /* background-image: url('img/Background.png'); */
     background-repeat: no-repeat;
     background-size: contain;
@@ -77,4 +77,27 @@ body {
 
 .container__box {
     margin: 0 6rem;
+}
+
+.second__img {
+    width: 80%;
+    margin: 0 2rem;
+}
+
+.second {
+    align-items: center;
+}
+
+.container__description {
+    margin: 0 2rem;
+}
+
+.description__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.description__text {
+    color: var(--second-gray);
 }
