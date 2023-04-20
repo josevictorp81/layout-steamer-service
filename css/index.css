@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --main-white: #ffffff;
+    --second-gray: #c0c0c0;
+    --blue-button: #167bf7;
+    --blue-button-hover: #519bf7;
+    --background-color: #00030c;
+    --main-font: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--main-white);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main-section {
+    /* background-image: url('img/Background.png'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__btn {
+    background-color: var(--blue-button);
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--main-white);
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid var(--blue-button-hover);
+}
+
+.container__btn:hover {
+    border: 1px solid var(--main-white);
+}
+
+.btn-second {
+    background-color: transparent;
+    border: 1px solid var(--main-white);
+}
+
+.btn-second:hover {
+    border: 1px solid var(--blue-button-hover);
+}
+
+.container__warnig {
+    font-size: 12px;
+    color: var(--second-gray);
+}
+
+.container__title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__img {
+    margin: 1rem 0 2rem 0;
+}
+
+.container__box {
+    margin: 0 6rem;
+}
