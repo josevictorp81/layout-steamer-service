@@ -81,7 +81,7 @@ body {
 
 .second__img {
     width: 80%;
-    margin: 0 2rem;
+    margin: 0 3rem 0 4rem;
 }
 
 .second {
@@ -89,7 +89,7 @@ body {
 }
 
 .container__description {
-    margin: 0 2rem;
+    margin: 0 3rem;
 }
 
 .description__title {
@@ -100,4 +100,9 @@ body {
 
 .description__text {
     color: var(--second-gray);
+}
+
+.btn-third {
+    display: inline-block;
+    margin-top: 1rem;
 }
