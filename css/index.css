@@ -12,6 +12,7 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 body {
@@ -105,4 +106,27 @@ body {
 .btn-third {
     display: inline-block;
     margin-top: 1rem;
+}
+
+.devices {
+    text-align: center;
+}
+
+.devices__title {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--main-white);
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0 12rem 0;
+}
+
+.list__item {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--main-white);
 }
