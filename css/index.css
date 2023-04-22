@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -42,7 +43,6 @@ body {
     background-color: var(--blue-button);
     border-radius: 8px;
     padding: 1rem;
-    text-decoration: none;
     color: var(--main-white);
     display: block;
     margin-bottom: 1rem;
@@ -110,6 +110,7 @@ body {
 
 .devices {
     text-align: center;
+    margin: 0 3rem 0 3rem;
 }
 
 .devices__title {
@@ -123,10 +124,36 @@ body {
     justify-content: center;
     align-items: center;
     margin: 2.5rem 0 12rem 0;
+    gap: 4.5rem;
 }
 
 .list__item {
     font-size: 2rem;
     font-weight: 700;
     color: var(--main-white);
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 1.25rem 0 1.25rem;
+    gap: 2.5rem;
+}
+
+.list__link a {
+    color: var(--main-white);
+}
+
+.list__link a:hover {
+    color: var(--blue-button);
+}
+
+.footer__text {
+    margin: 1.5rem 120px 0 120px;
 }
